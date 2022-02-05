@@ -19,4 +19,8 @@ const D = struct {
     pub fn MD3(_: *const Self) void {
         info("MD3", .{});
     }
+
+    pub fn MD4(_: *const Self) void {
+        info("MD4", .{});
+    }
 };
