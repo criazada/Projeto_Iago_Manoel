@@ -14,4 +14,8 @@ const C = struct {
     pub fn MC2(_: *const Self) void {
         info("MC2", .{});
     }
+
+    pub fn MC3(_: *const Self) void {
+        info("MC3", .{});
+    }
 };
