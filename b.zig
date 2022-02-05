@@ -33,4 +33,8 @@ const B = struct {
     pub fn MB2(_: *const Self) void {
         info("MB2", .{});
     }
+
+    pub fn MB3(_: *const Self) void {
+        info("MB3", .{});
+    }
 };
