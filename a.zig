@@ -33,4 +33,8 @@ const A = struct {
     pub fn MA2(_: *const Self) void {
         info("MA2", .{});
     }
+
+    pub fn MA3(_: *const Self) void {
+        info("Alteração a classe A partir do clone", .{});
+    }
 };
